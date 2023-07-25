@@ -1,0 +1,35 @@
+jelly = ["pretty" , "smart" , "funny" , "sexy" , "small" , "fit"]
+print(jelly)
+print("My girlfriend jelly is so " + jelly[0])
+jelly[4] = "beautiful"
+print(jelly)
+jelly.append("understanding")
+print(jelly)
+jelly.insert(0, "breathe-taking")
+print(jelly)
+del jelly[7]
+print(jelly)
+jel = jelly.pop()
+print(jelly)
+print("i love my girlfriend Jelly, she is so " + jel.upper())
+jell = jelly.pop(0)
+message = "My girlfriend Jelly is absoulutely " + jell.title() + "."
+print(message)
+love = "smart"
+jelly.remove(love)
+message = "\nMy girlfriend Jelly is super " + love.lower() + "!"
+print(message)
+print(jelly)
+jelly.sort()
+print(jelly)
+jelly.sort(reverse=True)
+print(jelly)
+print("Here is the original list:")
+print(jelly)
+print("\nHere is the sorted list:")
+print(sorted(jelly))
+print("\nHere is the original list again:")
+print(jelly)
+jelly.reverse()
+print(jelly)
+print(len(jelly))
